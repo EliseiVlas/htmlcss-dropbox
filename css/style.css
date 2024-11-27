@@ -83,7 +83,7 @@
         align-items: center;
         width: 95%;
         margin: 0% 3%;
-        height: 400px;
+        height: 360px;
         background-color: blueviolet;
     }
     .info1{
@@ -199,37 +199,39 @@
         display: flex;
         justify-content: center;
         width: 100%;
-        
+        /* height: 550px; */
         /* dbag */
-        height: 300px;
+        
     }
     .main_team{
         display: flex;
         flex-direction: column;
         width: 60%;
-        height: 300px;
-        background-color: darksalmon;
+        margin-bottom: 300px;
+        /* height: 300px; */
+        
         border: 1px solid rgb(153, 153, 153);
     }
     .parola{
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: aqua;
+        /* background-color: aqua; */
         width: 100%;
-        height: 15%;
+        height: 10%;
         border-bottom: 1px solid rgb(153, 153, 153);
         
     }
     .parola a{
         color: black;
         text-decoration: none;
+        font-size: 20px;
     }
     .enterprise{
         display: flex;
         width: 100%;
         height: 300px;
-        background-color: aqua;
+        /* background-color: aqua; */
         
     }
     .contati{
@@ -239,6 +241,7 @@
         width: 70%;
         margin-top: 20px;
         padding-left: 30px;
+        font-size: 30px;
         
     }
     .contati2{
@@ -257,8 +260,30 @@
     }
     
     /* Terza parte main */
-
-
+    .terza_section{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 750px;
+        background-color: cadetblue;
+        margin-bottom: 200px;
+    }
+    .main_partener{
+        display: flex;
+        width: 60%;
+        height: 750px;
+        background-color: white;
+    }
+    .img{
+        width: 90%;
+        height: auto;
+    }
+    .box_partener{
+        width: 40%;
+        height: 400px;
+        background-color: bisque;
+        margin-top: 5%;
+    }
     /* Quarta parte main */
 
 
