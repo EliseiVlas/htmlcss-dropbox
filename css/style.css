@@ -18,38 +18,75 @@
         position: fixed;
         top: 0;
         z-index: 100;
-        height: 80px;
+        background-color:white;
+        /* height: 80px; */
         /* dbag */
         
-        background-color: steelblue;
     }
     .prima{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
-        width: 28%;
+        width: 32%;
         /* dbag */
-        height: 40px;
-        background-color: crimson;
+        height: 100%;
+        /* background-color: crimson; */
         
     }
     .seconda{
         display: flex;
         align-items: center;
-        justify-content: space-around;
-        width: 28%;
+        justify-content: space-between;
+        width: 32%;
         /* dbag */
-        height: 40px;
-        background-color: crimson;
+        height: 100%;
+        /* background-color: crimson; */
     }
 
     .prima a{
         color: black;
         text-decoration: none;
+        height: 100%;
+        width: 25%;
+        /* background-color: aquamarine; */
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        padding: 30px 0px;
+        font-size: 14px;
     }
     .seconda a{
         color: black;
         text-decoration: none;
+        height: 100%;
+        width: 26%;
+        /* background-color: aquamarine; */
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        padding: 30px 0px;
+        font-size: 14px;
+
+    }
+    .logo{
+        width: 80%;
+        padding-left: 5px;
+        
+    }
+    .prima a:hover{
+        border-bottom: 3px solid black;
+    }
+    .seconda a:hover{
+        border-bottom: 3px solid black;
+    }
+    .inizia a{
+        padding: 8px 14px;
+        margin-right: 5px;
+        color: white;
+        background-color: rgb(0, 119, 255);
+    }
+    .contatta a{
+        padding: 30px 9px;
     }
     
     /* Info iniziali */
@@ -58,16 +95,17 @@
         display: flex;
         justify-content: center;
         width: 100%;
+        background-color: rgb(174, 219, 255);
         /* dbag */
-        height: 750px;
+        height: px;
         
     }
 
     .titolo{
         width: 70%;
         /* dbag */
-        height: 750px;
-        background-color: darkseagreen;
+        /* height: 750px; */
+        /* background-color: darkseagreen; */
     }
 
     h1{
@@ -76,7 +114,7 @@
         font-size: 70px;
         /* dbag */
         height: 180px;
-        background-color: blanchedalmond;
+        /* background-color: blanchedalmond; */
     }
     .info_iniziali{
         display: flex;
@@ -85,24 +123,46 @@
         width: 95%;
         margin: 0% 3%;
         height: 360px;
-        background-color: blueviolet;
+        /* background-color: blueviolet; */
     }
     .info1{
         display: flex;
         justify-content: space-between;
         flex-direction: column;
-        width: 30%;
+        width: 34%;
+        
         /* dbug */
         height: 95%;
-        background-color: blanchedalmond;
+        /* background-color: blanchedalmond; */
 
     }
     .imgheader{
-        width: 68%;
+        width: 70%;
         /* dbug */
         height: 95%;
-        background-color: blanchedalmond;
+        /* background-color: blanchedalmond; */
     }
+    .sfondo{
+        width:102%;
+        height: 120%;
+    }
+
+    .pulsante{
+        background-color: rgb(0, 119, 255);
+        color: white;
+        width: 65%;
+        padding: 9px;
+        text-decoration: none;
+    }
+    .pulsante2{
+        text-decoration: none;
+        color: black;
+    }
+    .freccia i{
+        font-size:35px;
+        color: black;
+    }
+
 
 /* Regole main */
 
@@ -115,18 +175,19 @@
         width: 100%;
 
         /* dbag */
-        height: 1300px;
-        background-color: cornflowerblue;
+        /* height: 1300px;
+        background-color: cornflowerblue; */
     }
     .pagamenti{
         display: flex;
         flex-direction: column;
         gap: 30px;
         width: 60%;
+        margin-top: 50px;
 
         /* dbug */
         height: 1280px;
-        background-color: bisque;
+        /* background-color: bisque; */
     }
     .h2{
         margin-top: 50px;
@@ -162,13 +223,14 @@
         width: 100%;
         /* dbug */
         height: 1050px;
-        background-color: rgb(194, 194, 194);
+        /* background-color: rgb(194, 194, 194); */
     }
     .collona1{
         display: flex;
+        flex-direction: column;
         width: 30%;
         height: 1050px;
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
         border: 1px solid rgb(153, 153, 153);
     }
     .singolo{
@@ -183,7 +245,7 @@
         display: flex;
         width: 30%;
         height: 1050px;
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
         border: 1px solid rgb(153, 153, 153);
     
     }
@@ -191,11 +253,14 @@
         display: flex;
         width: 30%;
         height: 1050px;
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
         border: 1px solid rgb(153, 153, 153);
     
     }
-   
+   .membro{
+    padding-left: 26px;
+    padding-top: 30px;
+   }
 
     /* Seconda parte main */
     .seconda_section{
@@ -230,10 +295,13 @@
         text-decoration: none;
         font-size: 20px;
     }
+    .fa-solid{
+        color: black;
+    }
     .enterprise{
         display: flex;
         width: 100%;
-        height: 300px;
+        height: 270px;
         /* background-color: aqua; */
         
     }
@@ -261,31 +329,42 @@
         font-size: 23px;
         padding-bottom: 20px;
     }
+   
     
     /* Terza parte main */
     .terza_section{
         display: flex;
         justify-content: center;
         width: 100%;
-        height: 750px;
-        background-color: cadetblue;
+        margin-bottom: 130px;
+        /* height: 750px;
+        background-color: cadetblue; */
         
     }
     .main_partener{
         display: flex;
         width: 60%;
-        height: 750px;
-        background-color: white;
+        /* height: 750px;
+        background-color: white; */
     }
     .img{
-        width: 90%;
+        width: 95%;
         height: auto;
     }
     .box_partener{
-        width: 40%;
-        height: 400px;
-        background-color: bisque;
+        width: 65%;
+        /* height: 400px;
+        background-color: bisque; */
         margin-top: 5%;
+    }
+    .box_partener a{
+        color: black;
+        text-decoration: none;
+        border: 2px solid black;
+        padding: 8px;
+    }
+    .box_partener p{
+        padding-bottom: 30px;
     }
     /* Quarta parte main */
     .quarta_section{
@@ -314,13 +393,18 @@
         justify-content: space-between;
         margin-top: 50px;
         
+        
     }
     .immagini img{
         width: 100%;
-
+        padding-top: 50px;
     }
     .img_info{
-        width: 30%;
+        width: 31%;
+    }
+    .img_info p{
+        font-size: 16px;
+        line-height: 21px;
     }
 
 
@@ -395,7 +479,10 @@
         color: white;
         text-decoration: none;
     }
-    i{
+    .fa-earth-americas{
+        color: white;
+    }
+    .fa-caret-up{
         color: white;
     }
     .box_lingua div{
