@@ -58,7 +58,7 @@
         justify-content: center;
         width: 100%;
         /* dbag */
-        height: 700px;
+        height: 750px;
         
     }
 
@@ -107,7 +107,98 @@
 
 
     /* Prima parte main */
+    .prima_section{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
 
+        /* dbag */
+        height: 1300px;
+        background-color: cornflowerblue;
+    }
+    .pagamenti{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 60%;
+
+        /* dbug */
+        height: 1280px;
+        background-color: bisque;
+    }
+    h2{
+        margin-top: 50px;
+        font-size: 40px;
+    }
+    .cerchio{
+        display: flex;
+        gap:3PX;
+        padding: 10px 0px;
+    }
+    .circle{
+        font-size: 5px;
+        border: 5px solid rgb(0, 89, 255);
+        border-radius: 40px;
+        padding: 1px 5px;
+        vertical-align: middle;   
+    }
+    .circle2{
+        font-size: 4px;
+        border: 1px solid rgb(61, 61, 61);
+        border-radius: 50%;
+        padding: 0px 8px;
+        vertical-align: middle;   
+    }
+    .fatura{
+        padding-right: 30px;
+    }
+    .collone{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        /* dbug */
+        height: 1050px;
+        background-color: rgb(194, 194, 194);
+    }
+    .collona1{
+        display: flex;
+        width: 30%;
+        height: 1050px;
+        background-color: aquamarine;
+        border: 1px solid rgb(153, 153, 153);
+    }
+    .singolo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 35px;
+        border: 1px solid rgb(153, 153, 153);
+    }
+    .collona2{
+        display: flex;
+        width: 30%;
+        height: 1050px;
+        background-color: aquamarine;
+        border: 1px solid rgb(153, 153, 153);
+    
+    }
+    .collona3{
+        display: flex;
+        width: 30%;
+        height: 1050px;
+        background-color: aquamarine;
+        border: 1px solid rgb(153, 153, 153);
+    
+    }
+    .parola{
+        display: flex;
+        justify-content: center;
+        padding: 10px 0px;
+        background-color: aqua;
+        
+    }
 
     /* Seconda parte main */
 
