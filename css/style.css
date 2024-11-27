@@ -4,14 +4,104 @@
     margin: 0;
     box-sizing: border-box;
     font-family:Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 17px;
 }
 
 /* Regole header */
 
     /* bara principale */
+    .barra{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        /* dbag */
+        height: 60px;
+        background-color: steelblue;
+    }
+    .prima{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 28%;
+        /* dbag */
+        height: 40px;
+        background-color: crimson;
+        
+    }
+    .seconda{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 28%;
+        /* dbag */
+        height: 40px;
+        background-color: crimson;
+    }
 
+    .prima a{
+        color: black;
+        text-decoration: none;
+    }
+    .seconda a{
+        color: black;
+        text-decoration: none;
+    }
+    
     /* Info iniziali */
 
+    .header{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        /* dbag */
+        height: 700px;
+        
+    }
+
+    .titolo{
+        width: 70%;
+        /* dbag */
+        height: 750px;
+        background-color: darkseagreen;
+    }
+
+    h1{
+        margin: 10% 3% 3% 3%;
+        width: 95%;
+        font-size: 70px;
+        /* dbag */
+        height: 180px;
+        background-color: blanchedalmond;
+    }
+    .info_iniziali{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 95%;
+        margin: 0% 3%;
+        height: 400px;
+        background-color: blueviolet;
+    }
+    .info1{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 30%;
+        /* dbug */
+        height: 95%;
+        background-color: blanchedalmond;
+
+    }
+    .imgheader{
+        width: 68%;
+        /* dbug */
+        height: 95%;
+        background-color: blanchedalmond;
+    }
 
 /* Regole main */
 
