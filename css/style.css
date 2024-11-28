@@ -29,7 +29,7 @@
         align-items: center;
         width: 32%;
         /* dbag */
-        height: 100%;
+        /* height: 100%; */
         /* background-color: crimson; */
         
     }
@@ -39,20 +39,20 @@
         justify-content: space-between;
         width: 32%;
         /* dbag */
-        height: 100%;
+        /* height: 100%; */
         /* background-color: crimson; */
     }
 
     .prima a{
         color: black;
         text-decoration: none;
-        height: 100%;
+        height: 90%;
         width: 25%;
         /* background-color: aquamarine; */
         justify-content: center;
         text-align: center;
         align-content: center;
-        padding: 30px 0px;
+        padding: 28px 0px;
         font-size: 14px;
     }
     .seconda a{
@@ -79,6 +79,9 @@
     .seconda a:hover{
         border-bottom: 3px solid black;
     }
+    .inizia a:hover{
+        background-color: rgb(90, 167, 255);
+    }
     .inizia a{
         padding: 8px 14px;
         margin-right: 5px;
@@ -97,7 +100,7 @@
         width: 100%;
         background-color: rgb(174, 219, 255);
         /* dbag */
-        height: px;
+        /* height: px; */
         
     }
 
@@ -111,7 +114,7 @@
     h1{
         margin: 10% 3% 3% 3%;
         width: 95%;
-        font-size: 70px;
+        font-size: 80px;
         /* dbag */
         height: 180px;
         /* background-color: blanchedalmond; */
@@ -143,8 +146,8 @@
         /* background-color: blanchedalmond; */
     }
     .sfondo{
-        width:102%;
-        height: 120%;
+        width:105%;
+        height: 125%;
     }
 
     .pulsante{
@@ -153,6 +156,10 @@
         width: 65%;
         padding: 9px;
         text-decoration: none;
+    }
+    .pulsante:hover{
+        background-color: rgb(90, 167, 255);
+        border-bottom: 2px solid black;
     }
     .pulsante2{
         text-decoration: none;
@@ -178,15 +185,16 @@
         /* height: 1300px;
         background-color: cornflowerblue; */
     }
-    .pagamenti{
+    #pagamenti{
         display: flex;
         flex-direction: column;
         gap: 30px;
         width: 60%;
         margin-top: 50px;
+        margin-bottom: 40px;
 
         /* dbug */
-        height: 1280px;
+        /* height: 1280px; */
         /* background-color: bisque; */
     }
     .h2{
@@ -221,15 +229,16 @@
         display: flex;
         justify-content: space-between;
         width: 100%;
+    
         /* dbug */
-        height: 1050px;
+        /* height: 1050px; */
         /* background-color: rgb(194, 194, 194); */
     }
     .collona1{
         display: flex;
         flex-direction: column;
         width: 30%;
-        height: 1050px;
+        /* height: 1050px; */
         /* background-color: aquamarine; */
         border: 1px solid rgb(153, 153, 153);
     }
@@ -244,15 +253,16 @@
     .collona2{
         display: flex;
         width: 30%;
-        height: 1050px;
+        /* height: 1050px; */
         /* background-color: aquamarine; */
         border: 1px solid rgb(153, 153, 153);
+        font-size: 13px;
     
     }
     .collona3{
         display: flex;
         width: 30%;
-        height: 1050px;
+        /* height: 1050px; */
         /* background-color: aquamarine; */
         border: 1px solid rgb(153, 153, 153);
     
@@ -260,6 +270,69 @@
    .membro{
     padding-left: 26px;
     padding-top: 30px;
+    padding-right: 26px;
+   }
+   .mese{
+    color:rgb(179, 179, 179);
+    /* background-color: aqua; */
+   }
+   h5{
+    padding-bottom: 15px;
+   }
+   ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 0px;
+   }
+   ul li{
+    display: flex;
+    gap: 5px;
+    list-style: none;
+   }
+   li span{
+    font-size: 18px;
+   }
+   .prova_gratis{
+    background-color: rgb(0, 119, 255);
+    color: white;
+    padding: 10px 26px;
+    width: 100%;
+    text-decoration: none;
+    font-size: 15px;
+
+   }
+   .contata{
+    text-align: center;
+   }
+   .prova_gratis:hover{
+    background-color: rgb(90, 167, 255);
+    border-bottom: 2px solid black;
+   }
+   .acquista{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* background-color: aqua; */
+   }
+   .riga{
+    height: 10px;
+    width: 60px;
+    border-bottom: 1px solid rgb(185, 185, 185);
+    /* background-color: aqua; */
+
+   }
+   h6{
+    padding: 30px 0px;
+   }
+   .unorder{
+    padding-top: 0px;
+   }
+   .unorder li{
+    font-size: 15px;
+   }
+   .fa-check{
+    color:blue;
    }
 
     /* Seconda parte main */
@@ -295,7 +368,7 @@
         text-decoration: none;
         font-size: 20px;
     }
-    .fa-solid{
+    .fa-building{
         color: black;
     }
     .enterprise{
@@ -325,6 +398,10 @@
         text-align: center;
         padding-top: 8px;
     }
+    .contati2:hover{
+        background-color: rgb(90, 167, 255);
+        border-bottom: 2px solid black;
+    }
     h3{
         font-size: 23px;
         padding-bottom: 20px;
@@ -332,7 +409,7 @@
    
     
     /* Terza parte main */
-    .terza_section{
+    #terza_section{
         display: flex;
         justify-content: center;
         width: 100%;
@@ -458,6 +535,7 @@
         color: white;
         text-decoration: none;
         font-size: 15px;
+        line-height: 27px;
     }
 
     /* Selezione lingua */
